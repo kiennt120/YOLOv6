@@ -3,9 +3,6 @@ train: /content/YOLOv6/custom_data/images/train # train images
 val: /content/YOLOv6/custom_data/images/val # val images
 test: /content/YOLOv6/custom_data/images/test # test images (optional)
 
-'''train: custom_data/images/train # train images
-val: custom_data/images/val # val images
-test: custom_data/images/test # test images (optional)'''
 # whether it is coco dataset, only coco dataset should be set to True.
 is_coco: False
 # Classes
