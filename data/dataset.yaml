@@ -1,10 +1,7 @@
 # Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
-# train: /kaggle/working/YOLOv6/images/train # train images
-train: /kaggle/working/YOLOv6/train/images
-# val: /kaggle/working/YOLOv6/images/valid # val images
-val: /kaggle/working/YOLOv6/val/images
-# test: /content/YOLOv6/custom_data/images/test # test images (optional)
-test: /kaggle/working/YOLOv6/test/images
+train: /kaggle/working/YOLOv6/images/train # train images
+val: /kaggle/working/YOLOv6/images/val # val images
+test: /content/YOLOv6/YOLOv6/images/test # test images (optional)
 
 # whether it is coco dataset, only coco dataset should be set to True.
 is_coco: False
